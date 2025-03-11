@@ -27,7 +27,7 @@
             font-size: 3em;
             margin: 0;
             font-weight: bold;
-            background: linear-gradient(to right, rgba(228, 4, 44, 0.7), rgba(255, 255, 255, 0));
+            background:  rgba(228, 4, 44, 0.85);
             padding: 10px 20px;
             display: inline-block;
             border-radius: 10px;
@@ -35,7 +35,7 @@
         .hero h2 {
             font-size: 1.5em;
             margin-top: 10px;
-            background: linear-gradient(to right, rgba(228, 4, 44, 0.7), rgba(255, 255, 255, 0));
+            background:  rgba(228, 4, 44, 0.85);
             padding: 10px 20px;
             display: inline-block;
             border-radius: 10px;
@@ -61,6 +61,7 @@
             border-radius: 25px;
             text-decoration: none;
             transition: 0.3s;
+            font-size: xx-large;
         }
         .button:hover {
             background: #8C1517;
@@ -71,12 +72,23 @@
             font-size: 14px;
             background: rgba(0, 0, 0, 0.4);
         }
+
+        body {
+            background-image: url(./static/images/PG\ Labs.jpg);
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+            font-size: xx-large;
+        }
+        a{
+          color: white;  
+          text-decoration: none;
+        }
     </style>
 </head>
 <body>
     <div class="hero">
-        <h1>Offer Holder Days</h1>
-        <h2>DANILAB | UNIVERSITY OF LEICESTER</h2>
+        <h1>CMS Offer Holder Days demo</h1>
+        <h2> <a href="https://www.danilab.org" >DANILAB</a> | <a href="https://le.ac.uk/computing-and-mathematical-sciences" >UNIVERSITY OF LEICESTER</a></h2>
         <a href="./mediapipe-js-demos" class="button" target="_blank">Explore Demos</a>
         <img src="./static/images/ur5e.png" alt="UR5e Robotic Arm" class="robot-image">
     </div>
